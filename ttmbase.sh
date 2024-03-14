@@ -18,10 +18,10 @@ fi
 
 mkdir /app/ttmbase -p
 cd /app/ttmbase || exit
-cp -r /home/Downloads/ttmbase-backend ./backend
-cp -r /home/Downloads/ttmbase-frontend ./frontend
-cp -r /home/Downloads/ttmbase-static ./nuxt
-cp -r /home/Downloads/ttmbase-JS-admin ./admin
+cp -r /home/Downloads/ttmbase/backend ./backend
+cp -r /home/Downloads/ttmbase/frontend ./frontend
+cp -r /home/Downloads/ttmbase/static ./nuxt
+cp -r /home/Downloads/ttmbase/admin ./admin
 
 echo "`cat <<YOLLOPUKKI
 
